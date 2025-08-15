@@ -1,3 +1,0 @@
-/home/corey/Code/TextGame/build/CMakeFiles/TextGame.dir
-/home/corey/Code/TextGame/build/CMakeFiles/edit_cache.dir
-/home/corey/Code/TextGame/build/CMakeFiles/rebuild_cache.dir
