@@ -96,6 +96,8 @@ TextGame_EXTERNAL_OBJECTS =
 TextGame: CMakeFiles/TextGame.dir/main.cpp.o
 TextGame: CMakeFiles/TextGame.dir/build.make
 TextGame: CMakeFiles/TextGame.dir/compiler_depend.ts
+TextGame: /usr/lib/x86_64-linux-gnu/libcurses.so
+TextGame: /usr/lib/x86_64-linux-gnu/libform.so
 TextGame: CMakeFiles/TextGame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/corey/Code/TextGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TextGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TextGame.dir/link.txt --verbose=$(VERBOSE)
