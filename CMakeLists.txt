@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 4.0)
 
 find_package(Curses REQUIRED)
 
-set(SOURCE_LIST main.cpp)
+set(SOURCE_LIST main.cpp src/creatureslib.cpp)
 
 add_executable(TextGame ${SOURCE_LIST})
 

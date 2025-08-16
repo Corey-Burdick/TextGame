@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/TextGame.dir/link.d CMakeFiles/TextGame.dir/main.cpp.o CMakeFiles/TextGame.dir/src/creatureslib.cpp.o -o TextGame  -lcurses /usr/lib/x86_64-linux-gnu/libform.so
