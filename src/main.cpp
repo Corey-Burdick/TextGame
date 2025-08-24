@@ -1,7 +1,11 @@
-#include <stdio.h>
 #include <ncurses.h>
 
+#include "entitylib.hpp"
+
 int main() {
-  printf("Hello World!\n");
+  Creature player(BIRD, 40, 50);
+
+  player.printSpecies();
+  player.getPos();
   return 0;
 }

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 4.0)
 project(TextGame VERSION 0.0.01)
 
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES src/main.cpp src/entitylib.cpp)
 
 find_package(Curses REQUIRED)
 
