@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 #include <stdio.h>
+#include <string>
 
 enum species : uint8_t {
   NONE = 0,
@@ -18,25 +19,28 @@ public:
   uint8_t arms;
   uint8_t legs;
   uint8_t tail;
+  std::string name;
 
   int y = 0;
   int x = 0;
 
-  Creature(uint8_t species) {
+  Creature(std::string newName, uint8_t species) {
     head = torso = arms = legs = tail = species;
+    name = newName;
   }
 
-  Creature(uint8_t species, int y_pos, int x_pos) {
+  Creature(std::string newName, uint8_t species, int y_pos, int x_pos) {
     head = torso = arms = legs = tail = species;
     y = y_pos;
     x = x_pos;
+    name = newName;
   }
 
   void getPos() {
     printf("Y: %d, X: %d\n", y, x);
   };
   void printSpecies() {
-    printf("The creature has a ");
+    printf("%s has a ", name.c_str());
     switch (head) {
       case NONE:
         printf("missing ");
